@@ -14,6 +14,7 @@ import Truncate from 'lodash.truncate';
 import axios from 'axios';  // Promise based HTTP client for the browser and node.js
 import lodash from 'lodash';  // A modern JavaScript utility library delivering modularity, performance & extras
 import format from 'string-format'; // string-format is a small JavaScript library for formatting strings, based on Python's 
+import elementUi from 'element-ui';
 /** /import npm module **/
 
 /** import custom vue component **/
@@ -55,6 +56,8 @@ Vue.use(Vuetify, {
     }
   }
 });
+
+Vue.use(elementUi);
 // Bootstrap application components
 
 /** Global Custom Component **/

@@ -88,6 +88,16 @@ export default [
     )
   },
   {
+    path: '/samples/spreadsheet',
+    meta: { breadcrumb: true },
+    name: 'samples/sample1',
+    component: () => import(
+      /* webpackChunkName: "routes" */
+      /* webpackMode: "lazy-once" */
+      `@/pages/Samples/spreadSheet.vue`
+    )
+  },
+  {
     path: '/health/healthCommon',
     meta: { breadcrumb: true },
     name: 'health/healthCommon',
